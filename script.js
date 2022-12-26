@@ -1,5 +1,5 @@
 // Specify the URL of the website you want to scrape
-const url = "https://simsimi.com/";
+const url = "https://simsimi.com";
 
 // Send an HTTP request to the website and retrieve the HTML content
 fetch(url)
@@ -23,5 +23,6 @@ fetch(url)
         console.log(text);
       }
     }
+  console.log("hen");
   });
 
